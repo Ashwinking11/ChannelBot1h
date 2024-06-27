@@ -10,8 +10,8 @@ if ENVIRONMENT:
     except ValueError:
         raise Exception("Your API_ID is not a valid integer.")
     API_HASH = os.environ.get('API_HASH', 'd28604398dc13af15dd108bb34a27a54')
-    OWNER_ID = os.environ.get('OWNER_ID', '1966867320')
-    BOT_TOKEN = os.environ.get('BOT_TOKEN', '6509653210:AAEap5ed7KpIh-6Ym679jZzNcAhYORvHJ_k')
+    OWNER_ID = os.environ.get('OWNER_ID', '6121610691')
+    BOT_TOKEN = os.environ.get('BOT_TOKEN', '7353099372:AAHKDUqGrZWuGmGcVbDyxle-WcLAjoP9AWk')
     DATABASE_URL = os.environ.get('DATABASE_URL', 'mongodb+srv://ROKU:ROKU@cluster0.nxjre0s.mongodb.net/?retryWrites=true&w=majority')
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")  # Sqlalchemy dropped support for "postgres" name.
     # https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre
